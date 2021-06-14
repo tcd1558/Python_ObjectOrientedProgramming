@@ -35,5 +35,5 @@ b1.setdiscount(10)
 print(b1.getprice())
 
 # TODO: properties with double underscores are hidden by the interpreter
-print(b1.__secret) # creates an error message.
 print(b1._Book__secret) # still accessible, but strongly discurraged.
+print(b1.__secret) # creates an error message.
